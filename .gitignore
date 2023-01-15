@@ -1,6 +1,5 @@
-django_tutorial/venv/
-django_tutorial/mysite/polls/__pycache__/
-django_tutorial/mysite/polls/migrations/__pycache__/
+.env
+backend/venv/
 db.sqlite3
 *db.sqlite3
 */db.sqlite3
