@@ -2,3 +2,4 @@ Django
 flake8
 python-decouple
 graphene-django==2.14.0
+django-cors-headers
