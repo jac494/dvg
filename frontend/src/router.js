@@ -13,10 +13,10 @@ const routes = [
     { path: '/post/:slug', component: BlogPost },
     { path: '/tag/:tag', component: PostsByTag },
     { path: '/', component: AllPosts },
-]
+  ]
 
-const router = new VueRouter({
+  const router = new VueRouter({
     routes: routes,
     mode: 'history',
-})
-export default router
+  })
+  export default router

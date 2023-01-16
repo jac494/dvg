@@ -5,18 +5,18 @@
     </div>
   </template>
   
-<script>
-import PostList from '@/components/PostList'
-
-export default {
-name: 'PostsByTag',
-components: {
-    PostList,
-},
-data () {
-    return {
-    posts: null,
-    }
-},
-}
-</script>
+  <script>
+  import PostList from '@/components/PostList'
+  
+  export default {
+    name: 'PostsByTag',
+    components: {
+      PostList,
+    },
+    data () {
+      return {
+        posts: null,
+      }
+    },
+  }
+  </script>
